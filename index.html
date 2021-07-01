@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My website</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	<header>
+		<div>
+			<h1>My website</h1>
+			<input type="search" name="search" placeholder="Search here...">
+		</div>
+		<ul>
+			<li><a href="./index.html">Home</a></li>
+			<li><a href="./photo.html">Photos</a></li>
+			<li><a href="./names.html">Names</a></li>
+		</ul>
+	</header>
+	<content class="cont-home">
+		<form method="POST" action="">
+			<h3>Add a new user</h3>
+			<label>Names</label>
+			<input type="text" name="name" required>
+			<label>Email</label>
+			<input type="email" name="email" required>
+			<label>Password</label>
+			<input type="password" name="password" required>
+			<label>Class</label>
+			<select>
+				<option>S5 COMP</option>
+				<option>S5 ECONOMY</option>
+				<option>S5 MIN</option>
+			</select>
+			<label>Gender</label>
+			<select>
+				<option>Male</option>
+				<option>Female</option>
+				<option>Other</option>
+			</select>
+			<div>
+				<label>Married?</label>
+				<input type="radio" name="Married" id="yes">Yes
+				<input type="radio" name="Married" id="no">No
+			</div>
+			<label>Upload a picture</label>
+			<input type="file" name="picture" required>
+			<div>
+				<input type="checkbox" name="terms" id="check"> Accept terms & regulations
+			</div>
+			<button>Submit</button>
+		</form>
+	</content>
+	<footer>
+		<p>&copy; My Website 2021</p>
+	</footer>
+</body>
+</html>

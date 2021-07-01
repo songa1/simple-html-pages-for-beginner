@@ -1,0 +1,21 @@
+content div {
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	justify-content: center;
+	align-items: center;
+	grid-gap: 10px;
+	margin-bottom: 20px;
+}
+content div div {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 100%;
+	border: 1px solid #209761;
+	text-align: center;
+	border-radius: 5px;
+}
+img {
+	width: 100%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
